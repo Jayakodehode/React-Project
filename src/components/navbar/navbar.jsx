@@ -1,8 +1,9 @@
+import style from "./navbar.module.css";
 export function Navbar() {
   return (
-    <div className="navbar">
-      <h1>conduit</h1>
-      <ul className="navitems">
+    <div className={style.navbar}>
+      <h1 className={style.logo}>conduit</h1>
+      <ul className={style.navitems}>
         <li>
           <a href="">Home</a>
         </li>
